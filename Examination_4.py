@@ -9,12 +9,12 @@
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
 score = int(input("คะเเนนนสอบ"))
 if score >= 80:
- print("A")
+ print("เกรด A")
 elif score >= 70:
- print("B")
+ print("เกรด B")
 elif score >= 60:
- print("C")
+ print("เกรด C")
 elif score >= 50:
- print("D")
+ print("เกรด D")
 else:
- print("F")
+ print("เกรด F")
