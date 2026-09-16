@@ -6,4 +6,9 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-n = int(input())
+n = int(input("จำนวนเต็ม:"))
+total = n/2
+if total == 0:
+ print("Even")
+else:
+ print("Odd")
